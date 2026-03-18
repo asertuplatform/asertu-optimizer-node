@@ -1,0 +1,35 @@
+{
+  "name": "@asertu/optimizer",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for asertu Optimizer",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asertuplatform/asertu-optimizer-node.git"
+  },
+  "homepage": "https://asertu.ai",
+  "bugs": {
+    "url": "https://github.com/asertuplatform/asertu-optimizer-node/issues"
+  },
+  "keywords": [
+    "asertu",
+    "optimizer",
+    "sdk",
+    "node"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
